@@ -1,0 +1,261 @@
+HKCR
+{
+  Pisogen.PersonalIsogen.1 = s 'PersonalIsogen Class'
+  {
+    CLSID = s '{C28FF079-C962-4E41-95F1-7175DFE76350}'
+  }
+  Pisogen.PersonalIsogen = s 'PersonalIsogen Class'
+  {
+    CLSID = s '{C28FF079-C962-4E41-95F1-7175DFE76350}'
+    CurVer = s 'Pisogen.PersonalIsogen.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {C28FF079-C962-4E41-95F1-7175DFE76350} = s 'PersonalIsogen Class'
+    {
+      ProgID = s 'Pisogen.PersonalIsogen.1'
+      VersionIndependentProgID = s 'Pisogen.PersonalIsogen'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.Isogen.1 = s 'Isogen Class'
+  {
+    CLSID = s '{7F6608F5-277F-41F9-8668-8244A41BF5B7}'
+  }
+  Pisogen.Isogen = s 'Isogen Class'
+  {
+    CLSID = s '{7F6608F5-277F-41F9-8668-8244A41BF5B7}'
+    CurVer = s 'Pisogen.Isogen.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {7F6608F5-277F-41F9-8668-8244A41BF5B7} = s 'Isogen Class'
+    {
+      ProgID = s 'Pisogen.Isogen.1'
+      VersionIndependentProgID = s 'Pisogen.Isogen'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.Idfgen.1 = s 'Idfgen Class'
+  {
+    CLSID = s '{2273DDDF-8AB2-46F2-AFE1-F8F7ED17B01E}'
+  }
+  Pisogen.Idfgen = s 'Idfgen Class'
+  {
+    CLSID = s '{2273DDDF-8AB2-46F2-AFE1-F8F7ED17B01E}'
+    CurVer = s 'Pisogen.Idfgen.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {2273DDDF-8AB2-46F2-AFE1-F8F7ED17B01E} = s 'Idfgen Class'
+    {
+      ProgID = s 'Pisogen.Idfgen.1'
+      VersionIndependentProgID = s 'Pisogen.Idfgen'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.OutputFile.1 = s 'OutputFile Class'
+  {
+    CLSID = s '{A0FD25EC-EFB0-448C-9565-E6CEA3F49C32}'
+  }
+  Pisogen.OutputFile = s 'OutputFile Class'
+  {
+    CLSID = s '{A0FD25EC-EFB0-448C-9565-E6CEA3F49C32}'
+    CurVer = s 'Pisogen.OutputFile.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {A0FD25EC-EFB0-448C-9565-E6CEA3F49C32} = s 'OutputFile Class'
+    {
+      ProgID = s 'Pisogen.OutputFile.1'
+      VersionIndependentProgID = s 'Pisogen.OutputFile'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.OutputFiles.1 = s 'OutputFiles Class'
+  {
+    CLSID = s '{930E57E4-08DC-4AD7-B43E-FE7BCDF18945}'
+  }
+  Pisogen.OutputFiles = s 'OutputFiles Class'
+  {
+    CLSID = s '{930E57E4-08DC-4AD7-B43E-FE7BCDF18945}'
+    CurVer = s 'Pisogen.OutputFiles.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {930E57E4-08DC-4AD7-B43E-FE7BCDF18945} = s 'OutputFiles Class'
+    {
+      ProgID = s 'Pisogen.OutputFiles.1'
+      VersionIndependentProgID = s 'Pisogen.OutputFiles'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.Utility.1 = s 'Utility Class'
+  {
+    CLSID = s '{B3DAB063-C2BE-4739-82E6-0C6D74D3C988}'
+  }
+  Pisogen.Utility = s 'Utility Class'
+  {
+    CLSID = s '{B3DAB063-C2BE-4739-82E6-0C6D74D3C988}'
+    CurVer = s 'Pisogen.Utility.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {B3DAB063-C2BE-4739-82E6-0C6D74D3C988} = s 'Utility Class'
+    {
+      ProgID = s 'Pisogen.Utility.1'
+      VersionIndependentProgID = s 'Pisogen.Utility'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.PersonalIsogen2.1 = s 'PersonalIsogen2 Class'
+  {
+    CLSID = s '{B0ECDEA0-443C-48D1-B08E-A4B6142796E4}'
+  }
+  Pisogen.PersonalIsogen2 = s 'PersonalIsogen2 Class'
+  {
+    CLSID = s '{B0ECDEA0-443C-48D1-B08E-A4B6142796E4}'
+    CurVer = s 'Pisogen.PersonalIsogen2.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {B0ECDEA0-443C-48D1-B08E-A4B6142796E4} = s 'PersonalIsogen2 Class'
+    {
+      ProgID = s 'Pisogen.PersonalIsogen2.1'
+      VersionIndependentProgID = s 'Pisogen.PersonalIsogen2'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.IDFTrans.1 = s 'IDFTrans Class'
+  {
+    CLSID = s '{D39C884E-2DC7-454F-9E8E-477CDD85F204}'
+  }
+  Pisogen.IDFTrans = s 'IDFTrans Class'
+  {
+    CLSID = s '{D39C884E-2DC7-454F-9E8E-477CDD85F204}'
+    CurVer = s 'Pisogen.IDFTrans.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {D39C884E-2DC7-454F-9E8E-477CDD85F204} = s 'IDFTrans Class'
+    {
+      ProgID = s 'Pisogen.IDFTrans.1'
+      VersionIndependentProgID = s 'Pisogen.IDFTrans'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  Pisogen.Dongle.1 = s 'Dongle Class'
+  {
+    CLSID = s '{63B97BF3-A427-4E64-8456-9A07DC87FD7B}'
+  }
+  Pisogen.Dongle = s 'Dongle Class'
+  {
+    CLSID = s '{63B97BF3-A427-4E64-8456-9A07DC87FD7B}'
+    CurVer = s 'Pisogen.Dongle.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {63B97BF3-A427-4E64-8456-9A07DC87FD7B} = s 'Dongle Class'
+    {
+      ProgID = s 'Pisogen.Dongle.1'
+      VersionIndependentProgID = s 'Pisogen.Dongle'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PHKCR
+{
+  pisogen.CountingDongle.1 = s 'CountingDongle Class'
+  {
+    CLSID = s '{772B7334-92F0-41A6-B1E5-F5FB49C9AA27}'
+  }
+  pisogen.CountingDongle = s 'CountingDongle Class'
+  {
+    CLSID = s '{772B7334-92F0-41A6-B1E5-F5FB49C9AA27}'
+    CurVer = s 'pisogen.CountingDongle.1'
+  }
+  NoRemove CLSID
+  {
+    ForceRemove {772B7334-92F0-41A6-B1E5-F5FB49C9AA27} = s 'CountingDongle Class'
+    {
+      ProgID = s 'pisogen.CountingDongle.1'
+      VersionIndependentProgID = s 'pisogen.CountingDongle'
+      ForceRemove 'Programmable'
+      InprocServer32 = s '%MODULE%'
+      {
+        val ThreadingModel = s 'Apartment'
+      }
+      'TypeLib' = s '{5EE2A940-236D-4C11-BB7D-31FFB9D376C6}'
+    }
+  }
+}
+PMSFT
